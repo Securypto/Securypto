@@ -1,0 +1,8 @@
+/usr/bin/securypto-cli		--	gen_context(system_u:object_r:securypto_exec_t,s0)
+/usr/sbin/securyptod		--	gen_context(system_u:object_r:securypto_exec_t,s0)
+/usr/lib(64)?/securypto/securyptod		--	gen_context(system_u:object_r:securypto_exec_t,s0)
+
+/etc/securypto(/.*)?		gen_context(system_u:object_r:securypto_conf_t,s0)
+/var/lib/securypto(/.*)?		gen_context(system_u:object_r:securypto_var_lib_t,s0)
+
+(/var)?/run/securyptod(/.*)?   gen_context(system_u:object_r:securypto_var_run_t,s0)

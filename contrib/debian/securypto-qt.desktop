@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Securypto
+Comment=Securypto P2P Cryptocurrency
+Comment[fr]=Securypto, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Securypto, eşten eşe kriptografik sanal para birimi
+Exec=securypto-qt %u
+Terminal=false
+Type=Application
+Icon=securypto128
+MimeType=x-scheme-handler/securypto;
+Categories=Office;Finance;
